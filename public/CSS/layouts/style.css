@@ -19,6 +19,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .hsContainer {
@@ -60,29 +61,38 @@
     padding: 3px 10px;
   }
 
-
+.content {
+    margin-top: 20px;
+}
 
 
 /*video*/
 
-
+.video {
+    width: 230px
+    height: 300px;
+    object-fit: cover;
+}
 
   .fullscreen-bg {
     bottom: 0;
-    height: 100vh;
+    height: 0;
     left: 0;
-    position: relative;
     right: 0;
     top: 0;
     z-index: -300;
+    position: fixed !important;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .fullscreen-bg video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: ;
+    width: 100%;
     min-height: 100vh ;
+    margin-bottom: 50px;
 }
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
