@@ -22,7 +22,7 @@
   jQuery(document).ready(function($) {
     $(".scroll").click(function(event){
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - 100}, 800);
     });
 });
 </script>
@@ -38,9 +38,9 @@
 
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="#what_we_do" class="pure-menu-link scroll">What We Do</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link scroll">Projects</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link scroll">Team</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link scroll">Contact</a></li>
+            <li class="pure-menu-item"><a href="#projects" class="pure-menu-link scroll">Projects</a></li>
+            <li class="pure-menu-item"><a href="#team" class="pure-menu-link scroll">Team</a></li>
+            <li class="pure-menu-item"><a href="#contact" class="pure-menu-link scroll">Contact</a></li>
         </ul>
     </div>
 </div>
@@ -107,7 +107,7 @@
             <img class="pure-img-responsive" alt="File Icons" width="300" src="/img/common/file-icons.png">
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-
+          <div class="content" id="projects"></div>
             <h2 class="content-head content-head-ribbon">Project 1</h2>
 
             <p>
@@ -153,16 +153,28 @@
 
 
         <section id="slide-4" class="homeSlide homeSlideTall">
+
             <div class="bcg">
 
                 <div class="curtainContainer">
-        
+                 
                     <div class="curtain" data-bottom-top="opacity: 0" data-106-top="height: 1%; opacity: 0; top: -10%;" data-center="height: 100%; opacity: 0.5; top: 0%;" data-anchor-target="#slide-4">
                     </div>
+
+                    
+
                     <div class="copy" data-bottom-top="opacity: 0" data--100-bottom="opacity: 0" data--280-bottom="opacity: 1;" data-280-top="opacity: 1;" data-106-top="opacity: 0;" data-anchor-target="#slide-4 .copy">
-                        <h2>Derek Kelmanson</h2>
-                        <h2>Iran Campos</h2>
-                        <h2>Christine Leverett</h2>
+                     <div class="content" id="team">
+                      <ul>
+                        <p>
+                        <li><h2>Derek Kelmanson</h2></li>
+                        </p><p>
+                        <li><h2>Iran Campos</h2></li>
+                        </p><p>
+                        <li><h2>Christine Leverett</h2></li>
+                      </ul>
+                        </p><p></p>
+                     </div>
                     </div>
                     
                 </div>
@@ -174,6 +186,7 @@
 
     <div class="content">
         <h2 class="content-head is-center">Contact Us</h2>
+         <div class="content" id="contact">
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
