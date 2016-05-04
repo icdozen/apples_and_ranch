@@ -69,8 +69,8 @@
 /*video*/
 
 .video {
-    width: 230px
-    height: 300px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -120,6 +120,12 @@
   color:#fff;
 }
 
+.mission {
+  margin-bottom: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-size: 25px;
+}
 
 /*Code for Responsive Menu*/
 <style>
@@ -130,17 +136,23 @@
     position: relative;
 }
 
+
 .custom-menu {
     display: inline-block;
     width: auto;
     vertical-align: middle;
     -webkit-font-smoothing: antialiased;
 }
+.fa {
+  color: black;
+  margin-right: 32px;
+}
 
 .custom-menu .pure-menu-link,
 .custom-menu .pure-menu-heading {
     color: white;
 }
+
 
 .custom-menu .pure-menu-link:hover,
 .custom-menu .pure-menu-heading:hover {
@@ -226,6 +238,7 @@
 }
 
 @media (max-width: 62em) {
+
 
     .custom-menu {
         display: block;
