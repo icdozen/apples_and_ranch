@@ -69,8 +69,8 @@
 /*video*/
 
 .video {
-    width: 230px
-    height: 300px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -120,15 +120,31 @@
   color:#fff;
 }
 
+.mission {
+  margin-bottom: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-size: 25px;
+}
 
 
+.fa {
+  color: black;
+  margin-right: 32px;
+}
 
 
+/*.entry img {
+  max-width: 100%;
+}
 
-
-
-
-
+.entry img.alignnone {
+    display: inline-block;
+    width: 95px;
+    height: auto;
+    margin: 0 20px;
+    vertical-align: top;
+}*/
 
 
 
