@@ -537,7 +537,7 @@ div.footer {
            padding: 80px 0;
            background-color: #68687c;
            color: #25373C;
-           font-size: 18px;
+
            min-height: 100vh;
            text-align: center;
        }
@@ -551,7 +551,7 @@ div.footer {
 
        .features-list div{
            display: inline-block;
-           width: 40%;
+           width: 30%;
            margin: 5px;
            /*border: 1px solid #ccc;*/
            /*padding: 45px;*/
@@ -559,8 +559,7 @@ div.footer {
        }
 
        .features-list div img{
-           font-size: 150px;
-           margin-bottom: 40px;
+\           margin-bottom: 40px;
            /*color: #50B575;*/
            max-width:100%;
             max-height:100%;
