@@ -29,7 +29,7 @@
 </head>
 <body>
 
-<div class="header">
+<!-- <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
         <a class="pure-menu-heading" href="">
           <img src="http://i.imgur.com/44Z1idm.png" height="35">
@@ -42,11 +42,27 @@
             <li class="pure-menu-item"><a href="#contact" class="pure-menu-link scroll">Contact</a></li>
         </ul>
     </div>
+</div> -->
+
+<!-- start of responsive menu -->
+
+<div class="custom-menu-wrapper">
+    <div class="pure-menu custom-menu custom-menu-top">
+        <a href="#" class="pure-menu-heading custom-menu-brand"><img src="http://i.imgur.com/44Z1idm.png" height="25"></a>
+        <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+    </div>
+    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+        <div class="custom-menu-screen"></div>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#what_we_do" class="pure-menu-link">What We Do</a></li>
+            <li class="pure-menu-item"><a href="#projects" class="pure-menu-link">Projects</a></li>
+            <li class="pure-menu-item"><a href="#team" class="pure-menu-link">Team</a></li>
+            <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+        </ul>
+    </div>
 </div>
 
-<!-- end of responsive menu -->
-
-
+<!-- Background image -->
 <div class="splash-container">
   <div class="splash">
    <h1 class="splash-head">Big Bold Text</h1>
@@ -327,6 +343,16 @@
         <script src="js/_main.js"></script>
     <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- This is the code for the responsive menu -->
+        <script>
+      (function (window, document) {
+      document.getElementById('toggle').addEventListener('click', function (e) {
+          document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
+          document.getElementById('toggle').classList.toggle('x');
+      });
+      })(this, this.document);
+      </script>
 
 
 </body>
