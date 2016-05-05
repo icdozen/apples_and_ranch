@@ -256,6 +256,7 @@ header .glyphicon {
 
 .carousel-control.right, .carousel-control.left {
     background: gray;
+    background-image: none !important;
     color: red;
 }
 .carousel-control.right:hover {
@@ -267,12 +268,12 @@ header .glyphicon {
     color: red;
 }
 .carousel-indicators li {
-    border-color: red;
+    border-color: red !important;
     margin-bottom: 50px;
 }
 
 .carousel-indicators li.active {
-    background-color: black;
+    background-color: red;
 }
 
 
@@ -304,8 +305,8 @@ header .glyphicon {
 
 .bcg{
   data-center = background-position: 50% 0px;
-  2data-bottom-top = background-position: 50% 100px;
-  data-top-bottom = background-position: 50% -100px;
+  2data-bottom-top = background-position: 50% 50px;
+  data-top-bottom = background-position: 50% -50px;
   data-anchor-target = #slide-4;
 }
 
@@ -357,7 +358,11 @@ header .glyphicon {
     background-color: rgba(0,0,0,0.75);
     padding: 3px 10px;
   }
+ #team {
+   color: white;
+   font-size: 35px;
 
-.content {
+ }
+/*.content {
     margin-top: 20px;
-}
+}*/
