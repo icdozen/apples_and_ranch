@@ -579,3 +579,98 @@ div.footer {
            }
 
        }
+/*Gallery Scroll CSS*/
+
+.gallery{
+           background-color: grey;
+           color: #221f51;
+           font: normal 24px sans-serif;
+           min-height: 300vh;
+           text-align: center;
+           overflow: hidden;
+       }
+
+       .scroll-pause{
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 80vw;
+           height: 80vh;
+           padding-top: 25vh;
+       }
+
+
+       .scroll-pause .row{
+           width: 200vw;
+           height: 45vh;
+           overflow: hidden;
+       }
+
+       .scroll-pause .row div{
+           width: 11.5%;
+           height: 90%;
+           float: left;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+           margin: 0.5%;
+           border-radius: 10px;
+       }
+
+       .scroll-pause .row div:first-child{
+           margin-left: 0.4%;
+       }
+
+       .scroll-pause .row div:last-child{
+           margin-right: 0.4%;
+       }
+
+/*Contact US */
+
+.about-us{
+            padding: 150px 0;
+            background-color: #fff;
+            min-height: 120vh;
+            text-align: center;
+            color: #25373C;
+            font-size: 18px;
+        }
+
+        .about-us h2{
+            font-size: 42px;
+            margin-bottom: 80px;
+            font-weight: normal;
+        }
+
+        .about-us div{
+            text-align: center;
+            width: 25%;
+            margin: 30px 10px;
+            display: inline-block;
+        }
+
+
+        .about-us div img{
+            border-radius: 50%;
+            width: 60%;
+        }
+
+        .about-us a.attribution{
+            display: block;
+            font-size: 13px;
+            text-decoration: none;
+            color: inherit;
+            width: 280px;
+            margin: 50px auto 10px;
+            opacity: 0.5;
+        }
+
+
+        @media (max-width: 800px){
+
+            .about-us div{
+                width: 45%;
+                margin: 20px 0;
+            }
+
+        }
