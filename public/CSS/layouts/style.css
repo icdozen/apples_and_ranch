@@ -4,7 +4,7 @@ header .glyphicon {
     font-size: 30px;
     color: red;
     position: relative;
-    bottom: 6px;
+    bottom: 1px;
     width: 100%;
     text-align: center;
     opacity: 1;
@@ -13,7 +13,7 @@ header .glyphicon {
 #phuckit {
 
     position: absolute;
-    top: 93%;
+    top: 120%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
