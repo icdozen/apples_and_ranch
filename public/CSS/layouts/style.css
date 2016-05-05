@@ -268,12 +268,12 @@ header .glyphicon {
     color: red;
 }
 .carousel-indicators li {
-    border-color: red !important;
+    border-color: black !important;
     margin-bottom: 50px;
 }
 
 .carousel-indicators li.active {
-    background-color: red;
+    background-color: black;
 }
 
 
@@ -519,4 +519,9 @@ header .glyphicon {
         overflow: hidden;
     }
 
+}
+
+.container-fluid {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
 }
