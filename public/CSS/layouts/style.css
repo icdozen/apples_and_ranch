@@ -535,9 +535,9 @@ div.footer {
 
 .features-list{
            padding: 80px 0;
-           background-color: #68687c;
+           background-color: white;
            color: #25373C;
-
+          background-image:url(http://i.imgur.com/uff9Yzd.jpg);
            min-height: 100vh;
            text-align: center;
        }
@@ -546,7 +546,7 @@ div.footer {
            font-size: 42px;
            margin-bottom: 80px;
            font-weight: normal;
-           color: white;
+           color: black;
        }
 
        .features-list div{
@@ -582,7 +582,9 @@ div.footer {
 /*Gallery Scroll CSS*/
 
 .gallery{
-           background-color: grey;
+          background-color:white;
+
+          background-repeat: no-repeat;
            color: #221f51;
            font: normal 24px sans-serif;
            min-height: 300vh;
@@ -674,3 +676,67 @@ div.footer {
             }
 
         }
+
+/* Preloader */
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url('../video/44.gif'); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+/*Video*/
+video {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 10%;
+  z-index: -1;
+}
+
+/*Body Text*/
+.body-text{
+          padding: 50px 0;
+          background-color: #fff;
+          color: #25373C;
+          font-size: 18px;
+          min-height: 50vh;
+          text-align: center;
+      }
+
+      .body-text h2{
+          font-size: 42px;
+          font-weight: normal;
+          margin-bottom: 80px;
+      }
+
+      .body-text p{
+          width: 88%;
+          display: inline-block;
+          text-align: center;
+          padding: 10px;
+          color: #45636B;
+      }
+
+
+      @media (max-width: 900px){
+
+          .body-text p{
+              width: 100%;
+          }
+
+      }
