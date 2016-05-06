@@ -552,6 +552,7 @@ div.footer {
           background-image: url(http://i.imgur.com/zrYifZv.jpg);
            min-height: 100vh;
            text-align: center;
+           margin-top: -53px;
        }
 
        .features-list h2{
