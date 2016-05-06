@@ -47,6 +47,7 @@
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a href="#what_we_do" class="pure-menu-link scroll">What We Do</a></li>
         <li class="pure-menu-item"><a href="#myCarousel" class="pure-menu-link scroll">Our Work</a></li>
+        <li class="pure-menu-item"><a href="#location" class="pure-menu-link scroll">Locations</a></li>
         <li class="pure-menu-item"><a href="#contact" class="pure-menu-link scroll">Contact Us</a></li>
       </ul>
     </div>
@@ -54,20 +55,18 @@
 
   <!-- Background image -->
   <div class="splash-container">
+
     <div class="splash">
       <h1 class="splash-head">Big Bold Text</h1>
-
-      <div id="phuckit">
-
+       <div id="phuckit">
         <header class="container-fluid text-center">
           <a href="#what_we_do" title="To bottom" class="scroll">
             <span class="glyphicon glyphicon-chevron-down"></span>
           </a>
         </header>
-
-      </div>
-
+       </div>
     </div>
+</div>
 
 
 
@@ -116,22 +115,49 @@
         </div>
       </div>
 
+      <!-- Carousel -->
 
+           <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+             <!-- Indicators -->
+             <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+             </ol>
 
-      <!-- Gallery Scroll Awesomeness -->
-    <div class="gallery" id="myCarousel">
-      <div class="scroll-pause" data-anchor-target=".gallery" data-100p-top-top="transform:translateY(100%);" data-top-top="transform:translateY(0%)" data--150p-top-top="" data--300p-top-top="transform:translateY(-100%)">
-        <h2>CARASOUL</h2>
-        <div class="row" data-anchor-target=".gallery" data-top-top="transform: translateX(0%);" data--150p-top-top="transform: translateX(-50%);">
-        <div style="background-image:url(http://i.imgur.com/ng6lcSn.jpg);" ></div>
-      </div>
-    </div>
+             <!-- Wrapper for slides -->
+             <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                 <center><img class="pure-img-responsive" alt="File Icons" width="400" src="http://i.imgur.com/ng6lcSn.jpg" title="source: imgur.com" /></center>
+                 <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+               </div>
+               <div class="item">
+                 <center><img class="pure-img-responsive" alt="File Icons" width="400" src="http://i.imgur.com/ng6lcSn.jpg" title="source: imgur.com" /></center>
+                 <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+               </div>
+               <div class="item">
+                 <center><img class="pure-img-responsive" alt="File Icons" width="400" src="http://i.imgur.com/ng6lcSn.jpg" title="source: imgur.com" /></center>
+                 <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+               </div>
+             </div>
+
+             <!-- Left and right controls -->
+             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+
 </div>
 
 
 
         <!-- Location Section -->
-        <div class="features-list">
+        <div class="features-list" id="location">
           <h2>Where to find us</h2>
 
           <div data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
