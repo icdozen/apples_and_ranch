@@ -24,12 +24,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 
+
   <!-- c23822 -->
 
 </head>
 
 <body>
 
+  <!-- preloader markup -->
+  <!-- <div id="preloader">
+      <div id="status">&nbsp;</div>
+  </div> -->
   <!-- start of responsive menu -->
 
   <div class="custom-menu-wrapper">
@@ -76,17 +81,14 @@
 
 
 
-
     <div class="content-wrapper">
       <div class="content" id="what_we_do">
-
         <!-- <h2 class="content-head is-center">LOGOS</h2> -->
-
-    <div class="pure-g">
+        <div class="pure-g">
 
           <div class="l-box-lrg pure-u-1-1 pure-u-md-1-1 pure-u-lg-1-1">
-            <div class="entry">
-              <p class="content-head is-center">
+            <!-- <div class="entry"> -->
+              <!-- <p class="content-head is-center">
 
                 <i class="fa fa-cogs fa-4x" aria-hidden="true"></i>
 
@@ -94,42 +96,29 @@
 
                 <i class="fa fa-area-chart fa-4x" aria-hidden="true"></i>
 
-              </p>
+              </p> -->
 
-          <!-- <h3 class="content-subhead is-center">Apples and Ranch</h3>  -->
-
-
-              <p class="mission">
+                    <div class="body-text">
+                      <h2>Who?</h2>
+                      <p data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                      <img src="http://i.imgur.com/vUk8I1I.png?2">
+                      <img src="http://i.imgur.com/G1F6EDS.png?1">
+                      <img src="http://i.imgur.com/GuHHx6A.png?1">
+                    </p>
+                      <p data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
+                        <b>Apples and Ranch</b> [ap-uh lz] [(ə)n] [ran(t)SH]:</b>
+                        <br> a boutique web development agency </br>
+                      </p>
+                  </div>
+            <!-- <h3 class="content-subhead is-center">Apples and Ranch</h3>  -->
+              <!-- <p class="mission">
                 <b>Apples and Ranch</b> [ap-uh lz] [(ə)n] [ran(t)SH]:</b>
-                <br> a small boutique web development agency </br>
-              </p>
-            </div>
+                <br> a boutique web development agency </br>
+              </p> -->
+            <!-- </div> -->
           </div>
-
-
         </div>
       </div>
-
-      <!-- <div class="ribbon l-box-lrg pure-g"> -->
-
-      <!-- <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-
-            <img class="pure-img-responsive" alt="File Icons" width="400" src="http://i.imgur.com/ng6lcSn.jpg" title="source: imgur.com" />
-
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-          <div class="content" id="projects"></div>
-            <h2 class="content-head content-head-ribbon">Project 1</h2>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor.
-            </p>
-        </div> -->
-
-      <!-- Carrrraaaseeellll Code -->
 
 
 
@@ -140,26 +129,11 @@
     <div class="row" data-anchor-target=".gallery" data-top-top="transform: translateX(0%);" data--150p-top-top="transform: translateX(-50%);">
         <div style="background-image:url(http://i.imgur.com/ng6lcSn.jpg);" ></div>
 
-        <div style="background-image:url(http://i.imgur.com/qstpZBy.png);" ></div>
-
-        <div style="background-image:url(http://i.imgur.com/4CM3Q0H.png);" ></div>
-
-        <div style="background-image:url(http://i.imgur.com/ng6lcSn.jpg);" ></div>
-        <div style="background-image:url(http://i.imgur.com/qstpZBy.png);" ></div>
-
-        <div style="background-image:url(http://i.imgur.com/4CM3Q0H.png);" ></div>
-        <div style="background-image:url(http://i.imgur.com/ng6lcSn.jpg);" ></div>
-
-        <div style="background-image:url(http://i.imgur.com/ng6lcSn.jpg);" ></div>
-    </div>
-
-</div>
 
 
 
       <!-- Location Section -->
       <div class="features-list">
-
         <h2>Where to find us</h2>
 
         <div data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
@@ -171,9 +145,7 @@
           <img src="http://i.imgur.com/4CM3Q0H.png">
 
         </div>
-
       </div>
-
 
       <div class="container-fluid bg-grey" id="contact">
 
@@ -211,12 +183,6 @@
 
     </div>
 
-
-
-
-
-
-
   </div>
 <!-- Footer -->
 
@@ -224,7 +190,16 @@
     View more on Apples and Ranch here.
   </div>
 
-
+  <!-- preloader -->
+  <script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    //]]>
+  </script>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript">
