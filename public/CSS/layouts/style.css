@@ -257,24 +257,24 @@ header .glyphicon {
 
 .carousel {
   background: white;
-  height: 720px;
+  height: 640px;
 }
 
 .carousel-control.right, .carousel-control.left {
-    background: gray;
+    background: ;
     background-image: none !important;
     color: red;
 }
 .carousel-control.right:hover {
-    background: gray;
+    background: ;
     color: red;
 }
 .carousel-control.left:hover {
-    background: black;
+    background: ;
     color: red;
 }
 .carousel-indicators li {
-    border-color: white !important;
+    border-color: black !important;
     margin-bottom: 50px;
 }
 
@@ -299,7 +299,7 @@ header .glyphicon {
 .item img {
   position: relative;
   width: 100%;
-  height: 720px;
+  height: 640px;
   /*background-size: cover;
   background-attachment: fixed;
   background-position: center;
