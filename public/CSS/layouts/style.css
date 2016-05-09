@@ -549,7 +549,7 @@ div.footer {
 /*This is the code for location slide*/
 
 .features-list{
-           padding:70px 0;
+           padding:120px 0;
            background-color: white;
            color: #25373C;
           /*background-image:url(http://i.imgur.com/uff9Yzd.jpg);*/
@@ -756,4 +756,12 @@ video {
               width: 100%;
           }
 
+      }
+
+      /*Section Labels*/
+
+      .label {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        background-color: black;
       }
