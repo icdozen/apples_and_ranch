@@ -6,6 +6,23 @@ p, div {
     font-family: 'Poppins', sans-serif;
 }
 
+.title {
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.intro {
+  color: red;
+  font-size: 20px;
+}
+
+.letters {
+  font-family: 'Poppins', sans-serif;
+}
+
 header .glyphicon {
     font-size: 30px;
     color: red;

@@ -12,9 +12,17 @@ body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+}
+p, div {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*h1,
 h2,
 h3,
 h4,
@@ -22,7 +30,7 @@ h5,
 h6,
 label {
     color: #34495e;
-}
+}*/
 
 .pure-img-responsive {
     max-width: 100%;
@@ -160,15 +168,16 @@ a.pure-button-primary {
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
     font-size: 80px;
-    font-weight: bold;
+    font-weight: 700;
     color: white;
     font-weight: 100;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* This is the subheading that appears on the blue section */
