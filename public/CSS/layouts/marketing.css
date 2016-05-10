@@ -277,7 +277,7 @@ a.pure-button-primary {
     /* We increase the height of the splash-container */
     .splash-container {
         background-color: black;
-        background-image: url('');
+        
     }
 
     /* We decrease the width of the .splash, since we have more width

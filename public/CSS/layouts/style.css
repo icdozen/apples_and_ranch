@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*bootstrap font override*/
 h1, h2, h3, h4, h5, h6 {
     'font-family: 'Poppins', sans-serif;'
@@ -6,6 +12,7 @@ p, div {
     font-family: 'Poppins', sans-serif;
 }
 
+/*Scrollr styles*/
 .skrollr-desktop body {
     height:100% !important;
 }
@@ -14,6 +21,58 @@ p, div {
     height:100%;
     position:relative;
     overflow: hidden;
+}
+.parallax-image.skrollable-between {
+    display:block;
+}
+
+.no-skrollr .parallax-image-wrapper {
+    display:none !important;
+}
+
+.parallax-image-wrapper {
+    position:fixed;
+    left:0;
+    width:100%;
+    overflow:hidden;
+
+    height:80vh;
+    top:-80vh;
+}
+
+
+.parallax-image {
+    display:none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    height:100vh;
+    top:0;
+}
+
+
+.parallax-image.skrollable-between {
+    display:block;
+}
+
+.no-skrollr .parallax-image-wrapper {
+    display:none !important;
+}
+
+
+.gap {
+    background:transparent center no-repeat;
+    background-size:cover;
+    height:80vh;
+}
+
+.skrollr .gap {
+    background:transparent !important;
 }
 
 
