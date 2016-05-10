@@ -706,7 +706,7 @@ video {
       }
 
 
-      @media (max-width: 50em){
+      @media (max-width: 900px){
 
           .body-text p{
               width: 100%;
