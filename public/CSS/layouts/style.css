@@ -23,7 +23,7 @@ p, div {
   font-family: 'Poppins', sans-serif;
 }
 
-header .glyphicon {
+/*header .glyphicon {
     font-size: 30px;
     color: red;
     position: relative;
@@ -32,8 +32,8 @@ header .glyphicon {
     text-align: center;
     opacity: 1;
 
-}
-#phuckit {
+}*/
+/*#phuckit {
 
     position: absolute;
     top: 110%;
@@ -41,11 +41,11 @@ header .glyphicon {
     min-height: 12%;
     z-index: 2;
     background: ;
-}
+}*/
 
 /*VIDEO - HEADER?*/
 
-.video {
+/*.video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -95,7 +95,7 @@ header .glyphicon {
 
 .hpblock h2{
   color:#fff;
-}
+}*/
 
 /*MISSION*/
 
@@ -114,7 +114,7 @@ header .glyphicon {
 /*Code for Responsive Menu*/
 
 
-.custom-menu-wrapper {
+/*.custom-menu-wrapper {
     background-color: #808080;
     margin-bottom: 2.5em;
     white-space: nowrap;
@@ -127,11 +127,11 @@ header .glyphicon {
     width: auto;
     vertical-align: middle;
     -webkit-font-smoothing: antialiased;
-}
+}*/
 
 /*MENU*/
 
-.custom-menu .pure-menu-link,
+/*.custom-menu .pure-menu-link,
 .custom-menu .pure-menu-heading {
     color: white;
 }
@@ -268,7 +268,7 @@ header .glyphicon {
         overflow: hidden;
     }
 
-}
+}*/
 
 /*CAROUSEL - PROJECTS*/
 
@@ -315,21 +315,14 @@ header .glyphicon {
 
 .item img {
   position: relative;
-  width: 100%;
+  width: auto;
   height: 640px;
-  /*background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat:no-repeat;
-  margin:0;
-  text-align:center;
-  padding-left:0;*/
 }
 
 
-/* PARALAX */
+/* CURTAIN Effect */
 
-.curtainContainer {width: 100%; height: 100%; position: relative;}
+/*.curtainContainer {width: 100%; height: 100%; position: relative;}
 .curtainContainer .curtain {width: 100%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
@@ -394,7 +387,7 @@ header .glyphicon {
    color: white;
    font-size: 35px;
 
- }
+ }*/
 /*.content {
     margin-top: 20px;
 }*/
@@ -557,10 +550,10 @@ div.footer {
   margin-top:-52px;
 }
 
-.container-fluid {
+/*.container-fluid {
   margin-top: 50px !important;
   margin-bottom: 50px !important;
-}
+}*/
 
 
 /*This is the code for location slide*/
@@ -607,17 +600,18 @@ div.footer {
            color: white;
            font-weight: normal;
        }
-       @media (max-width: 900px){
+       @media (max-width: 50em){
 
            .features-list div{
-               width: 90%;
+               width: 50%;
                margin-bottom: 30px;
+               background-color: orange;
            }
 
        }
 /*Gallery Scroll CSS*/
 
-.gallery{
+/*.gallery{
           background-color:white;
 
           background-repeat: no-repeat;
@@ -661,79 +655,11 @@ div.footer {
 
        .scroll-pause .row div:last-child{
            margin-right: 0.4%;
-       }
+       }*/
 
 /*Contact US */
 
-.about-us{
-            padding: 150px 0;
-            background-color: #fff;
-            min-height: 120vh;
-            text-align: center;
-            color: #25373C;
-            font-size: 18px;
-        }
 
-        .about-us h2{
-            font-size: 42px;
-            margin-bottom: 80px;
-            font-weight: normal;
-        }
-
-        .about-us div{
-            text-align: center;
-            width: 25%;
-            margin: 30px 10px;
-            display: inline-block;
-        }
-
-
-        .about-us div img{
-            border-radius: 50%;
-            width: 60%;
-        }
-
-        .about-us a.attribution{
-            display: block;
-            font-size: 13px;
-            text-decoration: none;
-            color: inherit;
-            width: 280px;
-            margin: 50px auto 10px;
-            opacity: 0.5;
-        }
-
-
-        @media (max-width: 800px){
-
-            .about-us div{
-                width: 45%;
-                margin: 20px 0;
-            }
-
-        }
-
-/* Preloader */
-#preloader {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /* change if the mask should have another color then white */
-    z-index:99; /* makes sure it stays on top */
-}
-#status {
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url('../video/44.gif'); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
-}
 
 /*Video*/
 video {
@@ -769,10 +695,11 @@ video {
       }
 
 
-      @media (max-width: 900px){
+      @media (max-width: 50em){
 
           .body-text p{
               width: 100%;
+              background-color: orange;
           }
 
       }

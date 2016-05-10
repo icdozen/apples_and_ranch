@@ -146,7 +146,7 @@ a.pure-button-primary {
  /*    background: #1f8dd6;
  */
      background-image: url('http://i.imgur.com/juJ5vxo.jpg');
-     background-size: cover;
+     /*background-size: cover;*/
      background-attachment: fixed;
      background-position: center;
      background-repeat:no-repeat;
@@ -236,9 +236,10 @@ a.pure-button-primary {
 }
 
 /*cell phone maybe*/
-@media (max-width: 20em) {
+@media (max-width: 50em) {
   .title {
     font-size: 50%;
+    background-color: orange;
   }
 }
 /*
@@ -258,9 +259,9 @@ a.pure-button-primary {
         padding: 1em;
     }
 
-    /*.title {
+    .title {
       font-size: 100%;
-    }*/
+    }
     /* We can align the menu header to the left, but float the
     menu items to the right. */
     .home-menu {
@@ -271,7 +272,7 @@ a.pure-button-primary {
         }
 
     /* We increase the height of the splash-container */
-/*    .splash-container {
+    /*.splash-container {
         height: 500px;
     }*/
 
@@ -280,6 +281,7 @@ a.pure-button-primary {
     .splash {
         width: 50%;
         height: 50%;
+
     }
 
     .splash-head {
