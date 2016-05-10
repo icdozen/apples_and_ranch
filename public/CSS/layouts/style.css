@@ -508,7 +508,7 @@ p, div {
     transform: translateY(-44px);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
 
     .custom-menu {
         display: block;
@@ -611,7 +611,7 @@ div.footer {
            color: white;
            font-weight: normal;
        }
-       @media (max-width: 900px){
+       @media (max-width: 700px){
 
            .features-list div{
                width: 90%;
@@ -706,7 +706,7 @@ video {
       }
 
 
-      @media (max-width: 900px){
+      @media (max-width: 700px){
 
           .body-text p{
               width: 100%;
