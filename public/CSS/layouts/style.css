@@ -6,6 +6,17 @@ p, div {
     font-family: 'Poppins', sans-serif;
 }
 
+.skrollr-desktop body {
+    height:100% !important;
+}
+
+#skrollr-body {
+    height:100%;
+    position:relative;
+    overflow: hidden;
+}
+
+
 .title {
     font-size: 80px;
     font-weight: 900;
@@ -497,7 +508,7 @@ p, div {
     transform: translateY(-44px);
 }
 
-@media (max-width: 62em) {
+@media (max-width: 900px) {
 
     .custom-menu {
         display: block;
@@ -600,10 +611,10 @@ div.footer {
            color: white;
            font-weight: normal;
        }
-       @media (max-width: 50em){
+       @media (max-width: 900px){
 
            .features-list div{
-               width: 50%;
+               width: 90%;
                margin-bottom: 30px;
                background-color: orange;
            }

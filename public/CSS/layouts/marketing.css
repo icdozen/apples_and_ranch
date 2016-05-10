@@ -43,11 +43,14 @@ label {
  */
 .l-box {
     padding: 1em;
+    background-color: black;
+
 }
 
 .l-box-lrg {
     padding: 2em;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+
 }
 
 .is-center {
@@ -236,12 +239,12 @@ a.pure-button-primary {
 }
 
 /*cell phone maybe*/
-@media (max-width: 50em) {
+/*@media (min-width: 50em) {
   .title {
     font-size: 50%;
     background-color: orange;
   }
-}
+}*/
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -272,9 +275,10 @@ a.pure-button-primary {
         }
 
     /* We increase the height of the splash-container */
-    /*.splash-container {
-        height: 500px;
-    }*/
+    .splash-container {
+        background-color: black;
+        background-image: url('');
+    }
 
     /* We decrease the width of the .splash, since we have more width
     to work with */
@@ -292,6 +296,7 @@ a.pure-button-primary {
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
         border: none;
+
     }
 
 }
